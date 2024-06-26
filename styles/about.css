@@ -1,0 +1,134 @@
+.about{   
+    width: 100%;
+    margin-top: 6rem;
+}
+.about__section{
+    font-size: var(--fs-text);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.about__pictureOne{
+    width: 30%;
+    position: relative;
+}
+.about__pictureOne img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.about__pictureTwo{
+    width: 30%;
+    position: relative;
+}
+.about__pictureTwo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+    display: block;
+}
+.about__pictureBackground{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 43px 8px rgba(0,0,0,0.75) inset;
+}
+.about__text{
+    padding: 2rem 2rem 4rem 2rem;
+    width: 40%;
+    border: 1px solid rgb(235, 235, 235);
+}
+.about__text h2{
+    font-family: var(--ff-titles);
+    font-weight: bolder;
+    text-align: center;
+    font-size: var(--fs-xs);
+    margin-bottom: 1rem;
+}
+.about__text p{
+    margin-bottom: 1rem;
+}
+.about__text p:nth-child(6){
+    margin-bottom: 3rem;
+}
+.about__text a{
+    color: var(--main-white);
+    font-size: var(--fs-highlights);
+    letter-spacing: 0.8rem;
+    padding: 1.2rem 1.2rem 1.2rem 2rem;
+    background: var(--main-darker-grey);
+    text-transform: uppercase;
+    user-select: none;
+    font-family: var(--ff-titles);
+    font-weight: bolder;
+    border-radius: var(--border-one);
+    transition: background-color 0.5s;
+}
+.about__text a:hover{
+    background: var(--main-cerulean-green);
+    color: var(--main-darker-grey);
+}
+/*************MEDIAQUERIES**************/
+
+@media (max-width: 1483px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1150px) {
+    .about__pictureOne{
+        width: 50%;
+    }
+    .about__pictureTwo{
+        display: none;
+    }
+    .about__text{
+        width: 50%;
+    }
+}
+
+@media (max-width: 950px) {/*2 REM padding*/
+
+}
+
+@media (max-width: 768px) {
+    .about__section{     
+        flex-direction: column;
+    }
+    .about__pictureOne{
+        width: 100%;
+    }
+    .about__pictureTwo{
+        display: inherit;
+        width: 100%;
+    }
+    .about__text{
+        width: 100%;
+    }
+
+}
+@media (max-width: 576px) { /*1 REM padding*/
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 455px) {
+    
+}
+
+@media (max-width: 350px) {
+    
+}
+
+/**************************************/

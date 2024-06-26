@@ -1,0 +1,114 @@
+.brakeline__one{
+    background-color: var(--main-darker-grey);
+}
+.brakeline__article{
+    padding: 6rem 2rem 12rem 2rem;
+    position: relative;
+    text-align: center;
+}
+.brakeline__title{
+    color: var(--main-white);
+    font-family: var(--ff-titles);
+    font-size: var(--fs-xl);
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 4rem;  
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+.c2a__article{
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+    width: 100%;
+}
+.brakeline__button{
+    border-bottom: 1px solid white;
+    color: white;
+    display: inline-block;
+    font-size: var(--fs-highlights);
+    letter-spacing: 0.8rem;
+    overflow: hidden;
+    padding: 1.2rem 1.2rem 1.2rem 2rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    font-family: var(--ff-titles);
+    font-weight: bolder;
+}
+.brakeline__button::before{
+    background: var(--main-cerulean-green);
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+.brakeline__c2a::before{
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 100%;
+  }
+.brakeline__c2a:hover::before{
+    height: 600%;
+}
+.brakeline__c2a:hover{
+    color:var(--main-darker-grey);  
+    border-bottom: 1px solid var(--main-cerulean-green);
+}
+
+
+/*************MEDIAQUERIES**************/
+
+@media (max-width: 1483px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1150px) {
+
+}
+
+@media (max-width: 950px) {/*2 REM padding*/
+
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) { /*1 REM padding*/
+
+}
+
+@media (max-width: 480px) {
+    .brakeline__button{
+        letter-spacing: 0.6rem;
+        padding: 1.2rem 0.6rem 1.2rem 1.2rem;
+        
+    }
+    .brakeline__article{
+        padding: 3rem 1rem 9rem 1rem;
+
+    }
+}
+
+@media (max-width: 455px) {
+    
+}
+
+@media (max-width: 350px) {
+    .brakeline__button{
+        letter-spacing: 0.5rem;
+        padding: 1.2rem 0.7rem 1.2rem 1.2rem;
+        
+    }
+}
+
+/**************************************/

@@ -1,61 +1,30 @@
-const slides = document.querySelectorAll('.slide');
-const next = document.querySelector('#next');
-const prev = document.querySelector('#prev');
-const auto = false; // Auto scroll
-const intervalTime = 8000;
-let slideInterval;
+var i = 0;
+var txt = 'Your Company on the Internet';
+var speed = 150;
 
-const nextSlide = () => {
-  // Get current class
-  const current = document.querySelector('.current');
-  // Remove current class
-  current.classList.remove('current');
-  // Check for next slide
-  if (current.nextElementSibling) {
-    // Add current to next sibling
-    current.nextElementSibling.classList.add('current');
-  } else {
-    // Add current to start
-    slides[0].classList.add('current');
-  }
-  setTimeout(() => current.classList.remove('current'));
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    } else {
+        setTimeout(function() {
+            document.getElementById("demo").innerHTML = ""; // Clear the text
+            i = 0; // Reset the index
+            typeWriter(); // Start again
+        }, 5000); // 5000 milliseconds = 5 seconds
+    }
+}
+
+
+window.onload = function() {
+    typeWriter();
 };
 
-const prevSlide = () => {
-  // Get current class
-  const current = document.querySelector('.current');
-  // Remove current class
-  current.classList.remove('current');
-  // Check for prev slide
-  if (current.previousElementSibling) {
-    // Add current to prev sibling
-    current.previousElementSibling.classList.add('current');
-  } else {
-    // Add current to last
-    slides[slides.length - 1].classList.add('current');
-  }
-  setTimeout(() => current.classList.remove('current'));
-};
 
-// Button events
-next.addEventListener('click', e => {
-  nextSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
 
-prev.addEventListener('click', e => {
-  prevSlide();
-  if (auto) {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-});
+window.onscroll = function() {
+  var theta = document.documentElement.scrollTop / 600 % Math.PI;
 
-// Auto slide
-if (auto) {
-  // Run next slide at interval time
-  slideInterval = setInterval(nextSlide, intervalTime);
+document.getElementById('js-logo').style.transform ='rotate(' + theta + 'rad)';
 }
