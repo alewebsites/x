@@ -7,7 +7,7 @@
     /* --main-dark-grey:#1B1B1B; */
     --main-darker-grey:#141414;
     --main-black:#000000;
-    --main-cerulean-green:#39ff14;
+    --main-cerulean-green:rgb(0, 204, 250);
     
     --ff-main:  "Roboto", sans-serif;
     --ff-titles: "Jura", sans-serif;
@@ -114,6 +114,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     width: 100%;
+    background: #e6e6e6;
 }
 
 

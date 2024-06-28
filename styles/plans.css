@@ -8,7 +8,7 @@
     gap: 2rem;
 }
 .article__plans{
-    background: var(--main-lighter-grey);
+    background: white;
     border:1px solid #141414;
     border-radius: var(--border-one);
     display: flex;
@@ -17,6 +17,7 @@
     max-width: 400px;
     padding: 0 1rem 2rem 1rem;
     flex: 1 1 0px;
+    
 }
 .article__plans__tittle{
     background: var(--main-darker-grey);
@@ -47,7 +48,7 @@
 .article__plans__span:hover{
     color:var(--main-cerulean-green);
     margin-left: 1rem;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 .article__plans__button{
     align-self: flex-end;

@@ -4,12 +4,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 6rem 3rem;
-    background: white;
+    /* background: white; */
 }
 .services__article{
     border-radius: var(--border-one);
     cursor: default;
     padding: 2rem;
+    background: white;
 }
 .services__article:hover{
     transition: transform 500ms;

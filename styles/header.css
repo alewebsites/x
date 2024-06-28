@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     background: #b4bfc9;
-    background: radial-gradient(circle, rgba(193,198,203,1) 0%, rgba(229,235,238,1) 50%, rgba(193,198,203,1) 100%);
+    background: linear-gradient(to bottom, #00b4db, #0083b0);
     position: absolute;
     z-index: -2;
     top: 0;
@@ -20,35 +20,18 @@
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75) inset;
 }
 .jumbotron__img{
-    height: 125%;
-    width: 125%;
-    background: url(../img/jumbotron/xgigabyte.webp) no-repeat fixed top center;
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;  
 }
-/* .jumbotron__lefTriangle{
-    width: 0;
-    height: 0;
-    border-bottom: 75vh solid white;
-    border-right: 40vw solid transparent;
-    left: 0;
-    bottom: 0;
+.jumbotron__img img{
+    width: 800px;
+    top: 50%;
+    right: 50%;
     position: absolute;
-    filter: drop-shadow(0px 10px 35px rgba(0,0,0,0.5));
-} */
-/* .jumbotron__righTriangle{
-    width: 0;
-    height: 0;
-    border-bottom: 75vh solid white;
-    border-left: 40vw solid transparent;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    filter: drop-shadow(0px 10px 35px rgba(0,0,0,0.5));
-} */
+    transform: translate(5%, -50%);
+}
 .jumbotron__section{
     padding: 0 3rem;
     width: 100%;
@@ -132,7 +115,6 @@
 	left: 0;
 	width: 100%;
 }
-
 .c2a__jumbotron:hover:before {
 	left: 0;
 	width: 100%;
@@ -166,28 +148,12 @@
     .jumbotron{
         height: 91vh;
     }
-    /* .jumbotron__lefTriangle{
-        width: 0;
-        height: 0;
-        border-bottom: 20vh solid white;
-        border-right: 40vw solid transparent;
-        left: 0;
-        bottom: 0;
-        position: absolute;
-    }
-    .jumbotron__righTriangle{
-        width: 0;
-        height: 0;
-        border-bottom: 20vh solid white;
-        border-left: 40vw solid transparent;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-    } */
-    
 }
 
 @media (max-width: 768px) {
+    .jumbotron__img img{
+        width: 600px;
+    }
 
 }
 
@@ -195,26 +161,6 @@
     .jumbotron__section{
         padding: 0 1rem;
     }
-
-
-    /* .jumbotron__lefTriangle{
-        width: 0;
-        height: 0;
-        border-bottom: 20vh solid white;
-        border-right: 40vw solid transparent;
-        left: 0;
-        bottom: 0;
-        position: absolute;
-    }
-    .jumbotron__righTriangle{
-        width: 0;
-        height: 0;
-        border-bottom: 20vh solid white;
-        border-left: 40vw solid transparent;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-    } */
 
 }
 
