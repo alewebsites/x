@@ -6,7 +6,7 @@ nav{
     right: 0;
     top:0;
     transition: 1s;
-    width: 30%;
+    width: 40%;
     z-index: 9;
     background: red;
 }
@@ -109,8 +109,10 @@ nav{
         width:60%;
     }
     .burger{
-        margin-right: 2rem;
-        margin-top: 2rem;
+        right: 2rem;
+    }
+    nav{
+        width: 55%;
     }
 }
 
@@ -127,10 +129,15 @@ nav{
     .ul__follow{
         width:100%; 
     }
+
     .burger{
-        margin-right: 1rem;
-        margin-top: 1rem;
+        top: 1rem;
+        right: 1rem;
     }
+    nav{
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 480px) {
