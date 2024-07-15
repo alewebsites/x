@@ -4,7 +4,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 6rem 3rem;
-    /* background: white; */
 }
 .services__article{
     border-radius: var(--border-one);
@@ -56,9 +55,7 @@
 
 /*************MEDIAQUERIES**************/
 
-@media (max-width: 1483px) {
-
-}
+@media (max-width: 1483px) {}
 
 @media (max-width: 1280px) {
     .services{
@@ -98,16 +95,8 @@
     }
 }
 
-@media (max-width: 480px) {
-    
-}
-
-@media (max-width: 455px) {
-    
-}
-
-@media (max-width: 350px) {
-
-}
+@media (max-width: 480px) {}
+@media (max-width: 455px) {}
+@media (max-width: 350px) {}
 
 /**************************************/

@@ -7,7 +7,7 @@
     /* --main-dark-grey:#1B1B1B; */
     --main-darker-grey:#141414;
     --main-black:#000000;
-    --main-cerulean-green:rgb(0, 204, 250);
+    --main-cerulean-green:#00ccfa;
     
     --ff-main:  "Roboto", sans-serif;
     --ff-titles: "Jura", sans-serif;
@@ -74,23 +74,23 @@ textarea:focus {
 }
 
 ::-webkit-input-placeholder { /* Edge */
-    color: var(--main-white);
-    font-family: var(--ff-special-tittles);
-    font-size: var(--fs-tittles);
-    letter-spacing: 3px;
+    /* color: var(--main-white); */
+    /* font-family: var(--ff-special-tittles); */
+    /* font-size: var(--fs-tittles); */
+    letter-spacing: 2px;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: var(--main-white);
-    font-family: var(--ff-special-tittles);
-    font-size: var(--fs-tittles);
-    letter-spacing: 3px;
+    /* color: var(--main-white); */
+    /* font-family: var(--ff-special-tittles); */
+    /* font-size: var(--fs-tittles); */
+    letter-spacing: 2px;
 }
 
 ::placeholder {
-    color: var(--main-white);
-    font-family: var(--ff-special-tittles);
-    font-size: var(--fs-tittles);
+    /* color: var(--main-white); */
+    /* font-family: var(--ff-special-tittles); */
+    /* font-size: var(--fs-tittles); */
     letter-spacing: 2px;
 
 }
@@ -135,59 +135,11 @@ body {
 
 /*****************************MEDIA QUERIES***************************/
 
-@media only screen and (max-width: 1200px){
-
-}
-
-
-@media only screen and (max-width: 1024px) {
-      
-}
-
-
-@media only screen and (max-width: 950px) {
-
-}
-
-
-@media only screen and (max-width: 768px) {
-    
-}
-
-
-@media only screen and (max-width: 650px) { 
-
-}
-
-@media only screen and (max-width: 550px) { 
-       
-}
-
-
-@media only screen and (max-width: 480px) {
-    
-
-    
-
-    
-    /* .section__plans{
-        padding: 2rem 1rem 0 1rem;
-    }
-    .article__plans{
-        max-width: 100%;
-        width: 100%;
-        
-    } */
-    
-
-}
-
-
-
-
-@media only screen and (max-width: 320px) {
-
-    /* .article__plans__button{
-        align-self: center;
-    } */
-}
+@media only screen and (max-width: 1200px) { }
+@media only screen and (max-width: 1024px) { }
+@media only screen and (max-width: 950px) { }
+@media only screen and (max-width: 768px) { }
+@media only screen and (max-width: 650px) { }
+@media only screen and (max-width: 550px) { }
+@media only screen and (max-width: 480px) { }
+@media only screen and (max-width: 320px) { }

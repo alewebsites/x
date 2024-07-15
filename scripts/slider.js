@@ -20,26 +20,3 @@ function typeWriter() {
 window.onload = function() {
     typeWriter();
 };
-
-
-
-// window.onscroll = function() {
-//   var theta = document.documentElement.scrollTop / 100 % Math.PI;
-
-// document.getElementById('js-logo').style.transform ='rotate(' + theta + 'rad)';
-// }
-
-
-// window.addEventListener('scroll', function() {
-//     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-//     var theta = (scrollTop / 100) % Math.PI;
-//     document.getElementById('js-logo').style.transform = 'rotate(' + theta + 'rad)';
-//   });
-
-
-window.addEventListener('scroll', function() {
-    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    var translateY = scrollTop * 1; // Ajusta el divisor para controlar la velocidad del movimiento
-    document.getElementById('js-logo').style.transform = 'translateX(' + translateY + 'px)';
-  });
-  

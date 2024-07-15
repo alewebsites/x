@@ -15,9 +15,9 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 400px;
-    padding: 0 1rem 2rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     flex: 1 1 0px;
-    
+    position: relative;
 }
 .article__plans__tittle{
     background: var(--main-darker-grey);
@@ -26,9 +26,12 @@
     padding: 1rem 0;
     text-align: center;
     text-transform: uppercase;
-    transform: translateY(-50%);
-    width: 100%;
+    width: 90%;
     font-family: var(--ff-titles);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%); 
 }
 .article__plans__ul{
     margin: -1rem 0 2rem 0;
@@ -54,81 +57,51 @@
     align-self: flex-end;
 }
 .article__plans__link{
-    background: var(--main-darker-grey);
-    border-radius: var(--border-one);
-    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.2);
-    color:white;
-    font-size: var(--fs-highlights);
-    letter-spacing: 0.8rem;
-    margin:0 0 1rem 0;
-    padding:  1rem 1.2rem 1rem 2rem;
-    text-transform: uppercase;
+    font-size: var(--fs-xs);    
     transition: 0.3s;
+    background: red;
 }
-.article__plans__link:hover{
-    background: var(--main-cerulean-green);
-    border-radius: 25px;
-    color: var(--main-darker-grey);
+.article__plans__link i{
+    color:var(--main-cerulean-green);
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
+    display: block;
+    font-size: 4rem;
+}
+.article__plans__link i:hover{
+    color: #25d366;
 }
 
 
 /*****************************MEDIA QUERIES***************************/
-
-/*************MEDIAQUERIES**************/
-
-@media (max-width: 1483px) {
-
-}
-
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1150px) {
-
-}
+@media (max-width: 1483px) {}
+@media (max-width: 1280px) {}
+@media (max-width: 1150px) {}
 
 @media (max-width: 950px) {/*2 REM padding*/
-
     .section__plans{
         padding: 0 2rem;
     }
-  
     .section__plans{
         display: flex;
         flex-direction: column;
         gap: 4rem;  
     }
-
     .article__plans{
         max-width: 100%;        
     }
 }
 
-@media (max-width: 768px) {
-
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 576px) { /*1 REM padding*/
     .section__plans{
         padding: 0 1rem;
     }
-
-
 }
 
-@media (max-width: 480px) {
-    
-
-}
-
-@media (max-width: 455px) {
-
-}
-
-@media (max-width: 350px) {
- 
-
-}
+@media (max-width: 480px) {}
+@media (max-width: 455px) {}
+@media (max-width: 350px) {}
 
 /**************************************/
