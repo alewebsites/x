@@ -90,6 +90,7 @@
 .li__follow:hover i{
     color: white;
     display: block;
+    font-size: 1.8rem;
 }
 .b__follow{
     color: white;
@@ -148,7 +149,7 @@
     align-items: center;
 }
 .logo__wrapper img{
-    width: 350px;
+    width: 450px;
 }
 .copy{
     background: var(--main-darker-grey);
