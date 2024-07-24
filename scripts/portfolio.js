@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     function resetTimer() {
       clearTimeout(timer);
-      timer = setTimeout(nextSlide, 5000);
+      timer = setTimeout(nextSlide, 8000);
     }
   
     rightArrow.addEventListener('click', nextSlide);
