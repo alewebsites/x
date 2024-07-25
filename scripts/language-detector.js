@@ -1,6 +1,3 @@
-// language-detector.js
-
-// Función para detectar el idioma
 function determineLanguage(browserLanguage, country) {
   const spanishSpeakingCountries = ['ES', 'MX', 'AR', 'CO', 'PE', 'VE', 'CL', 'EC', 'GT', 'CU', 'BO', 'DO', 'HN', 'PY', 'SV', 'NI', 'CR', 'PA', 'UY', 'PR', 'GQ'];
   
@@ -11,7 +8,7 @@ function determineLanguage(browserLanguage, country) {
   }
 }
 
-// Función principal
+
 function detectAndSetLanguage() {
   const userLanguage = navigator.language || navigator.userLanguage;
 
@@ -29,11 +26,11 @@ function detectAndSetLanguage() {
     })
     .catch(error => {
       console.error('Error al obtener la ubicación:', error);
-      // Si hay un error, usa solo el idioma del navegador
+      
       const language = determineLanguage(userLanguage, '');
-      // Aquí puedes agregar lógica adicional si lo deseas
+      
     });
 }
 
-// Ejecutar la función cuando se carga la página
+
 window.addEventListener('load', detectAndSetLanguage);
