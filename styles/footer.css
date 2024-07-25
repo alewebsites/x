@@ -43,42 +43,34 @@
 }
 .li__follow:nth-child(1):hover{
     background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(2):hover{
     background: #1877F2;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(3):hover{
     background: linear-gradient(to top, #000000, #434343);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(4):hover{
     background: #1DA1F2;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(5):hover{
     background: #7289da;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(6):hover{
     background: #FF0000;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(7):hover{
     background: #25d366;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow:nth-child(8):hover{
     background: #24A1DE;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: none;
 }
 .li__follow a{
