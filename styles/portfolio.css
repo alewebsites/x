@@ -32,9 +32,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1 1 0px;
 }
 .text-info{
   background: var(--main-darker-grey);
+
   padding: 2rem 2rem 2rem 0;
   border: 1px solid var(--main-light-grey);
   border-radius: var(--border-one);
