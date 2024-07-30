@@ -6,7 +6,7 @@
     width: 100%;
 }
 .jumbrotron__image{
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     background: url("../img/jumbotron/xgigabyte-cloud-websites-developer-wordpress.webp") no-repeat center center fixed;
     background-size: cover;
