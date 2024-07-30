@@ -9,7 +9,7 @@
 }
 .article__plans{
     background: white;
-    border:1px solid #141414;
+    border:1px solid var(--main-darker-grey);
     border-radius: var(--border-one);
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@
     transition: 0.2s;
 }
 .article__plans__span:hover{
-    color:var(--main-cerulean-green);
+    color:var(--main-blue);
     margin-left: 1rem;
     text-shadow: 1px 1px 1px black;
 }
@@ -59,17 +59,16 @@
 .article__plans__link{
     font-size: var(--fs-xs);    
     transition: 0.3s;
-    background: red;
 }
 .article__plans__link i{
-    color:var(--main-cerulean-green);
+    color:var(--main-blue);
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
     display: block;
     font-size: 4rem;
 }
 .article__plans__link i:hover{
-    color: #25d366;
+    color: var(--main-green);
 }
 
 

@@ -70,7 +70,7 @@
 	z-index: -1;
 }
 .c2a__one:hover {
-	color: var(--main-white);
+	color: white;
 	transition-delay: .5s;
 }
 .c2a__one:hover:before {

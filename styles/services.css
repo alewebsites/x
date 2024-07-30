@@ -17,17 +17,17 @@
 }
 .services__article:hover{
     background: var(--main-darker-grey);
-    color: var(--main-white);
+    color: white;
     cursor: default;
 }
 .services__article:hover .services__icon{
     filter: invert(100%);
 }
 .services__article:hover .services__tittle{
-    color: var(--main-cerulean-green);
+    color: var(--main-blue);
 }
 .services__article:hover .services__description{
-    color: var(--main-white);
+    color: white;
 }
 .services__icon{
     display: block;
@@ -55,7 +55,7 @@
 
 /*************MEDIAQUERIES**************/
 
-@media (max-width: 1483px) {}
+@media (max-width: 1483px) { }
 
 @media (max-width: 1280px) {
     .services{

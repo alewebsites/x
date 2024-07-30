@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --main-white:#FFFFFF;
-    --main-lighter-grey:#F3F3F3;
-    --main-light-grey:#E1E1E1;
-    /* --main-dark-grey:#1B1B1B; */
+    --main-light-grey:#e6e6e6;
     --main-darker-grey:#141414;
-    --main-black:#000000;
-    --main-cerulean-green:#00ccfa;
+    --main-green:#25d366;
+    --main-blue:#00ccfa;
     
     --ff-main:  "Roboto", sans-serif;
     --ff-titles: "Jura", sans-serif;
@@ -31,7 +28,6 @@
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     color: var(--main-darker-grey);
-    
 }
 *::before, *::after {
     box-sizing: border-box;
@@ -52,11 +48,11 @@ textarea:focus {
     background: rgba(255, 255, 255, 0.2);   
 } 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-cerulean-green);
+    background: var(--main-blue);
     border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #25d366;
+    background: var(--main-green);
 }
 ::-webkit-input-placeholder { /* Edge */
     letter-spacing: 2px;
@@ -85,7 +81,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     width: 100%;
-    background: #e6e6e6;
+    background: var(--main-light-grey);
 }
 
 

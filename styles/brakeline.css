@@ -7,7 +7,7 @@
     text-align: center;
 }
 .brakeline__title{
-    color: var(--main-white);
+    color: white;
     font-family: var(--ff-titles);
     font-size: var(--fs-xl);
     font-weight: 700;
@@ -37,7 +37,7 @@
     font-weight: bolder;
 }
 .brakeline__button::before{
-    background: var(--main-cerulean-green);
+    background: var(--main-blue);
     content: "";
     left: 50%;
     position: absolute;
@@ -56,36 +56,18 @@
 }
 .brakeline__c2a:hover{
     color:var(--main-darker-grey);  
-    border-bottom: 1px solid var(--main-cerulean-green);
+    border-bottom: 1px solid var(--main-blue);
 }
 
 
 /*************MEDIAQUERIES**************/
 
-@media (max-width: 1483px) {
-
-}
-
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1150px) {
-
-}
-
-@media (max-width: 950px) {/*2 REM padding*/
-
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) { /*1 REM padding*/
-
-}
+@media (max-width: 1483px) { }
+@media (max-width: 1280px) { }
+@media (max-width: 1150px) { }
+@media (max-width: 950px) {/*2 REM padding*/ }
+@media (max-width: 768px) { }
+@media (max-width: 576px) { /*1 REM padding*/}
 
 @media (max-width: 480px) {
     .brakeline__button{
@@ -99,9 +81,7 @@
     }
 }
 
-@media (max-width: 455px) {
-    
-}
+@media (max-width: 455px) { }
 
 @media (max-width: 350px) {
     .brakeline__button{

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentIndex = 0;
     let timer;
   
-    // Clonar todos los slides
+    // Clone all the slides
     slides.forEach(slide => {
       const clone = slide.cloneNode(true);
       slider.appendChild(clone);
@@ -56,6 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
     rightArrow.addEventListener('click', nextSlide);
     leftArrow.addEventListener('click', prevSlide);
   
-    // Iniciar el temporizador
+    // Start the timer
     resetTimer();
   });

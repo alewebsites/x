@@ -37,7 +37,7 @@ nav{
     font-weight: bolder;
 }
 .nav__a:hover{
-    color:var(--main-cerulean-green);
+    color:var(--main-blue);
 }
 .nav__ul li{
     opacity: 0;
@@ -47,7 +47,7 @@ nav{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
-    border: 1px solid #00ccfa;
+    border: 1px solid var(--main-blue);
     cursor: pointer;
     display: block;
     padding: 1rem 1rem 0.7rem 1rem;
@@ -57,7 +57,7 @@ nav{
     right: 3rem;
 }
 .burger:hover{
-    background: var(--main-cerulean-green);
+    background: var(--main-blue);
 }
 .burger__lines{
     background-color:var(--main-darker-grey);
@@ -87,7 +87,6 @@ nav{
 /*************MEDIAQUERIES**************/
 
 @media (max-width: 1483px) {}
-
 @media (max-width: 1280px) {}
 
 @media (max-width: 1150px) {
@@ -131,9 +130,7 @@ nav{
 }
 
 @media (max-width: 480px) {}
-
 @media (max-width: 455px) {}
-
 @media (max-width: 350px) {}
 
 /**************************************/
