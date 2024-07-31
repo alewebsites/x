@@ -14,21 +14,49 @@
 .services__article:hover{
     transition: transform 500ms;
     transform: scale(1.05);
-}
-.services__article:hover{
     background: var(--main-darker-grey);
     color: white;
     cursor: default;
 }
+.services__article:active, .services__article:focus{
+    transition: transform 500ms;
+    transform: scale(1.05);
+    background: var(--main-darker-grey);
+    color: white;
+    cursor: default;
+}
+/* ########################################## */
 .services__article:hover .services__icon{
     filter: invert(100%);
 }
+.services__article:active .services__icon{
+    filter: invert(100%);
+}
+.services__article:focus .services__icon{
+    filter: invert(100%);
+}
+/* ########################################## */
+
 .services__article:hover .services__tittle{
     color: var(--main-blue);
 }
+.services__article:active .services__tittle{
+    color: var(--main-blue);
+}
+.services__article:focus .services__tittle{
+    color: var(--main-blue);
+}
+/* ########################################## */
 .services__article:hover .services__description{
     color: white;
 }
+.services__article:active .services__description{
+    color: white;
+}
+.services__article:focus .services__description{
+    color: white;
+}
+/* ########################################## */
 .services__icon{
     display: block;
     filter: opacity(85%);

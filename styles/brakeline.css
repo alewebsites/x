@@ -54,7 +54,17 @@
 .brakeline__c2a:hover::before{
     height: 600%;
 }
+.brakeline__c2a:active::before{
+    height: 600%;
+}
+.brakeline__c2a:focus::before{
+    height: 600%;
+}
 .brakeline__c2a:hover{
+    color:var(--main-darker-grey);  
+    border-bottom: 1px solid var(--main-blue);
+}
+.brakeline__c2a:active, .brakeline__c2a:focus{
     color:var(--main-darker-grey);  
     border-bottom: 1px solid var(--main-blue);
 }

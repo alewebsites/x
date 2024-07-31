@@ -41,35 +41,36 @@
     border-right: 1px solid #272727;
     border-bottom: 1px solid #272727;
 }
-.li__follow:nth-child(1):hover{
+.li__follow:nth-child(1):hover, .li__follow:nth-child(1):active, .li__follow:nth-child(1):focus{
     background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
     border: none;
 }
-.li__follow:nth-child(2):hover{
+
+.li__follow:nth-child(2):hover, .li__follow:nth-child(2):active, .li__follow:nth-child(2):focus{
     background: #1877F2;
     border: none;
 }
-.li__follow:nth-child(3):hover{
+.li__follow:nth-child(3):hover, .li__follow:nth-child(3):active, .li__follow:nth-child(3):focus{
     background: linear-gradient(to top, #000000, #434343);
     border: none;
 }
-.li__follow:nth-child(4):hover{
+.li__follow:nth-child(4):hover, .li__follow:nth-child(4):active, .li__follow:nth-child(4):focus{
     background: #1DA1F2;
     border: none;
 }
-.li__follow:nth-child(5):hover{
+.li__follow:nth-child(5):hover, .li__follow:nth-child(5):active, .li__follow:nth-child(5):focus{
     background: #7289da;
     border: none;
 }
-.li__follow:nth-child(6):hover{
+.li__follow:nth-child(6):hover, .li__follow:nth-child(6):active, .li__follow:nth-child(6):focus{
     background: #FF0000;
     border: none;
 }
-.li__follow:nth-child(7):hover{
+.li__follow:nth-child(7):hover, .li__follow:nth-child(7):active, .li__follow:nth-child(7):focus{
     background: #25d366;
     border: none;
 }
-.li__follow:nth-child(8):hover{
+.li__follow:nth-child(8):hover, .li__follow:nth-child(8):active, .li__follow:nth-child(8):focus{
     background: #24A1DE;
     border: none;
 }
@@ -84,12 +85,23 @@
     display: block;
     font-size: 1.8rem;
 }
+.li__follow:active i, .li__follow:focus i{
+    color: white;
+    display: block;
+    font-size: 1.8rem;
+}
 .b__follow{
     color: white;
     font-size: var(--fs-text);
     font-weight: 700;
 }
 .li__follow:hover .b__follow{
+    display: none;
+}
+.li__follow:active .b__follow{
+    display: none;
+}
+.li__follow:focus .b__follow{
     display: none;
 }
 .form__wrapper{
@@ -130,6 +142,10 @@
 }
 
 #div-6-la:hover{
+    background: var(--main-darker-grey);
+    color: white;
+}
+#div-6-la:active, #div-6-la:focus {
     background: var(--main-darker-grey);
     color: white;
 }

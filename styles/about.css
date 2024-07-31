@@ -74,6 +74,10 @@
     background: var(--main-blue);
     color: var(--main-darker-grey);
 }
+.about__text a:active, .about__text a:focus{
+    background: var(--main-blue);
+    color: var(--main-darker-grey);
+}
 /*************MEDIAQUERIES**************/
 
 @media (max-width: 1483px) { }

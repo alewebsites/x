@@ -39,6 +39,9 @@ nav{
 .nav__a:hover{
     color:var(--main-blue);
 }
+.nav__a:active, .nav__a:focus{
+    color:var(--main-blue);
+}
 .nav__ul li{
     opacity: 0;
 }
@@ -57,6 +60,9 @@ nav{
     right: 3rem;
 }
 .burger:hover{
+    background: var(--main-blue);
+}
+.burger:active, .burger:focus{
     background: var(--main-blue);
 }
 .burger__lines{

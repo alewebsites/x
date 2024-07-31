@@ -70,6 +70,10 @@
   color: var(--main-blue);
   font-size: 1.2rem;
 }
+.text-info a:active, .text-info a:focus{
+  color: var(--main-blue);
+  font-size: 1.2rem;
+}
 .buttons-slide{
   display: flex;
   flex-direction: row;
@@ -88,6 +92,9 @@
   transition: color 0.5s;
 }
 .arrow i:hover {
+  color: rgba(0, 204, 250, 0.8);
+}
+.arrow i:active, .arrow i:focus{
   color: rgba(0, 204, 250, 0.8);
 }
 .left-arrow {

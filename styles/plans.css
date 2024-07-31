@@ -53,6 +53,11 @@
     margin-left: 1rem;
     text-shadow: 1px 1px 1px black;
 }
+.article__plans__span:active, .article__plans__span:focus{
+    color:var(--main-blue);
+    margin-left: 1rem;
+    text-shadow: 1px 1px 1px black;
+}
 .article__plans__button{
     align-self: flex-end;
 }
@@ -68,6 +73,9 @@
     font-size: 4rem;
 }
 .article__plans__link i:hover{
+    color: var(--main-green);
+}
+.article__plans__link i:active, .article__plans__link i:focus{
     color: var(--main-green);
 }
 

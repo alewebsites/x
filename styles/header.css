@@ -73,10 +73,23 @@
 	color: white;
 	transition-delay: .5s;
 }
+.c2a__one:active, .c2a__one:active:focus {
+	color: white;
+	transition-delay: .5s;
+}
+
 .c2a__one:hover:before {
 	transition-delay: 0s;
 }
+.c2a__one:active:before, .c2a__one:focus:before {
+	transition-delay: 0s;
+}
+
 .c2a__one:hover:after {
+	background: var(--main-darker-grey);
+	transition-delay: .35s;
+}
+.c2a__one:active:after, .c2a__one:focus:after {
 	background: var(--main-darker-grey);
 	transition-delay: .35s;
 }
@@ -100,7 +113,15 @@
 	left: 0;
 	width: 100%;
 }
+.c2a__jumbotron:active:before, .c2a__jumbotron:focus:before {
+	left: 0;
+	width: 100%;
+}
 .c2a__jumbotron:hover:after {
+	height: 100%;
+	top: 0;
+}
+.c2a__jumbotron:active:after, .c2a__jumbotron:focus:after {
 	height: 100%;
 	top: 0;
 }
