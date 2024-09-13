@@ -50,11 +50,12 @@
     border: none;
 }
 .a_follow:nth-child(3):hover, .a_follow:nth-child(3):active, .a_follow:nth-child(3):focus{
-    background: linear-gradient(to top, #000000, #434343);
+    background: linear-gradient(135deg, rgba(0,242,234,1) 0%, rgba(255,0,80,1) 100%);
     border: none;
 }
 .a_follow:nth-child(4):hover, .a_follow:nth-child(4):active, .a_follow:nth-child(4):focus{
-    background: #1DA1F2;
+    /* background: #000000; */
+    background: linear-gradient(to top, #000000, #434343);
     border: none;
 }
 .a_follow:nth-child(5):hover, .a_follow:nth-child(5):active, .a_follow:nth-child(5):focus{
